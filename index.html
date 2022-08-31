@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<div class="form-group">
+    <form>
+    <h4>Personal data</h4>
+    <div>
+        <label>Name and surname*:</label>
+        <input type="text" class="form-control" placeholder="Pera Peric">
+    </div>
+    <div>
+        <label>Date of birth:</label>
+        <input type="datetime" class="form-control" placeholder="mm/dd/yyyy">
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="email" class="form-control">
+    </div>
+    <div>
+        <label>Web adress:</label>
+        <input type="url" class="form-control">
+    </div>
+    <div>
+        <label>Username*:</label>
+        <input type="text" class="form-control">
+    </div>
+    <div>
+        <label>Password*:</label>
+        <input type="password" class="form-control">
+    </div>
+    <h4 id="h4">Education</h4>
+    <div id="nulti">
+    <div id ="prvi">
+
+        <div><label>Faculty:</label></div>
+        <select class="form-control">
+            <option>-----</option>
+            <optgroup label="Tehnical faculty">
+                <option>MATF</option>
+                <option>ETF</option>
+                <option>FON</option>
+            </optgroup>
+            <optgroup label="Social science">
+                <option>
+                    Faculty of Philology</option>
+            </optgroup>
+            <optgroup label="Art">
+                <option>FDU</option>
+            </optgroup>
+        </select>
+    </div>
+    <div id="drugi">
+        <label>University:</label>
+        <input list="browsers" class="form-control" />
+        <datalist id="browsers">
+        <option value="University in Belgrade">
+        <option value="University in Novi Sad">
+        <option value="University in Niš">
+        <option value="University in Kragujevac">
+</datalist>
+    </input>
+    </div>
+    </div>
+    
+    <div class="radio-inline">
+        <label>Year of study:</label>
+        <input type="radio" name="a"> 1</input>
+        <input type="radio" name="a"> 2</input>
+        <input type="radio" name="a"> 3</input>
+        <input type="radio" name="a"> 4</input>
+    </div>
+    <div id=grupa1>
+    <label id="labela">List of interests:</label>
+    <div class="checkbox">
+        <input type="checkbox"> Web development</input>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox"> Programming paradigm</input>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox"> Computer graphics</input>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox"> Algorithms</input>
+    </div>
+</div>
+<label>Note:</label>
+<textarea class="form-control" rows="6" placeholder="Enter a note..."></textarea>
+
+<div class="form-group">
+    <div id="dugme1">
+        <input class=" btn btn-primary" type="submit" value="Submit" >
+    </div>
+    <div id="dugme2">
+        <input class="btn btn-danger" type="reset" value="Reset" >
+    </div>
+</div>
+</form>
+</div>
+</body>
+</html>

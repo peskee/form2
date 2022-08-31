@@ -1,0 +1,48 @@
+#dugme1{
+    position:relative; 
+    left: 90px;
+    bottom:25px;
+}
+#dugme2{
+    position: relative;
+    left:230px;
+    bottom:63px;
+}
+h4{
+   color:orange;
+   font-family: sans-serif;
+}
+.form-group{
+    width: 1000px;
+    position:relative;
+    left:27%;
+    margin-top: 40px;
+}    
+#prvi{
+    width: 480px;
+}
+#drugi{
+    width: 495px;
+    position: relative;
+    bottom:70px;
+    left:505px; 
+}
+input[type="radio"]{
+   margin-left: 15px;
+}
+.radio-inline{
+    position:relative;
+    bottom:50px;
+}
+#grupa1{
+    position:relative;
+    bottom:50px;
+}
+
+#h4{
+   margin-top:30px;
+}
+#labela{
+    position: relative;
+    top:10px;
+}
